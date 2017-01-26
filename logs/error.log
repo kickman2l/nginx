@@ -115,3 +115,6 @@
 2017/01/26 15:27:39 [error] 3087#0: *3 open() "/home/pavel_heraska/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.75:8080"
 2017/01/26 15:30:23 [error] 3243#0: *1 user "admin": password mismatch, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.75:8080", referrer: "http://192.168.122.75:8080/"
 2017/01/26 15:30:23 [error] 3243#0: *1 user "admin": password mismatch, client: 192.168.122.1, server: , request: "GET /admin HTTP/1.1", host: "192.168.122.75:8080", referrer: "http://192.168.122.75:8080/"
+2017/01/26 15:42:26 [error] 3542#0: *4 open() "/home/pavel_heraska/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.75, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.75:8080"
+2017/01/26 15:42:28 [error] 3542#0: *3 access forbidden by rule, client: 192.168.122.75, server: , request: "GET /status HTTP/1.1", host: "192.168.122.75:8080", referrer: "http://192.168.122.75:8080/"
+2017/01/26 15:56:57 [error] 4245#0: *2 access forbidden by rule, client: 192.168.122.1, server: , request: "GET /status HTTP/1.1", host: "192.168.122.75:8080", referrer: "http://192.168.122.75:8080/"
